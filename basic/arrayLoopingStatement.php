@@ -28,21 +28,6 @@ foreach ($person as $student => $fname){
 
 
 }
-
-for ($i = 0; $i<3; $i++)
-{
-	for ($j=0; $j < 3; $j++) 
-	{ 
-		// code...
-		echo $person[$j];
-		echo "<br>";
-
-	}
-
-
-}
-
-
 // while loop 
 $num =0;
 echo "<br> while loop <br>";
@@ -52,6 +37,8 @@ while ($num <=10) {
 	// code...
 }
 
+
+// do while loop
 $num =0;
 echo "<br> do while loop <br>";
 do {
