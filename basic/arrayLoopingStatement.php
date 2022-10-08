@@ -21,28 +21,13 @@ foreach ($class as $student) {
 
 //associative array
 echo "<br> associative array <br>";
-$person = array("abdure" => "redi","intisar" => "nesru");
-foreach ($person as $student => $fname){
+//$person = array("abdure" => "redi","intisar" => "nesru");
+//foreach ($person as $student => $fname){
 	
-	echo "student first name is " . $student. " and father name is " . $fname . "<br>";
+	//echo "student first name is " . $student. " and father name is " . $fname . "<br>";
 
 
-}
-
-for ($i = 0; $i<3; $i++)
-{
-	for ($j=0; $j < 3; $j++) 
-	{ 
-		// code...
-		echo $person[$j];
-		echo "<br>";
-
-	}
-
-
-}
-
-
+//}
 // while loop 
 $num =0;
 echo "<br> while loop <br>";
