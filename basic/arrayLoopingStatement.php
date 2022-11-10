@@ -23,11 +23,7 @@ foreach ($class as $student) {
 echo "<br> associative array <br>";
 //$person = array("abdure" => "redi","intisar" => "nesru");
 //foreach ($person as $student => $fname){
-	
-	//echo "student first name is " . $student. " and father name is " . $fname . "<br>";
 
-
-//}
 // while loop 
 $num =0;
 echo "<br> while loop <br>";
@@ -37,6 +33,8 @@ while ($num <=10) {
 	// code...
 }
 
+
+// do while loop
 $num =0;
 echo "<br> do while loop <br>";
 do {

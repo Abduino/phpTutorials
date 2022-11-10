@@ -1,7 +1,3 @@
-<?php
-include "menu.php";
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,34 +21,20 @@ if (isset($_GET['submit'])) {
 	// code...
 }
 */
-/*
+
 if (isset($_POST['submit'])) {
 	echo "<br> the form data recived<br>";
 	echo "the first name is : " . $_POST['f_name'] ."<br>";
 	echo "the last name is : " . $_POST['l_name'];
 	// code...
 }
-*/
+
+/*
 if (isset($_REQUEST['submit'])) {
 	echo "<br> the form data recived<br>";
 	echo "the first name is : " . $_REQUEST['f_nmae']."<br>";
 	echo "the last name is : " . $_REQUEST['l_name'];
 	// code...
 }
-
-
-
-/*
-echo "<br>";
-include "menu.php";
-echo "<br><br>--------------------------<br>";
-echo "<form action='' method=''>
-		F_name: <input type='text' name='f_name'><br><br>
-		L_name: <input type='text' name='l_name'><br><br>
-		<input type='submit' name='submit'>
-	 </form>";
-
 */
-
-include "footer.php";
 ?>
